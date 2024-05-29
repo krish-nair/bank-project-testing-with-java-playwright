@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo bank project Regression Suit" thread-count="3" parallel="tests" verbose="4">
+    <test name="Demo Bank Login Page Test">
+
+        <classes>
+            <class name="com.bank.qa.homepagetests.LoginPageTest"/>
+        </classes>
+
+    </test> <!-- Test -->
+    <test name="Demo Bank Manager Home Page Test">
+
+        <classes>
+            <class name="com.bank.qa.homepagetests.BankManagerHomePageTest"/>
+        </classes>
+
+    </test> <!-- Test -->
+    <test name="Demo Bank Add New Customer Page Test">
+
+        <classes>
+            <class name="com.bank.qa.homepagetests.AddNewCustomerTest"/>
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
